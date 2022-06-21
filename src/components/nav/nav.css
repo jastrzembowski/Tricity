@@ -1,0 +1,72 @@
+:root {
+  --main-dark: #026e81;
+  --main-blue: #0099dd;
+  --main-teal: #00abbd;
+  --main-orange: #ff9933;
+  --main-light: #a1c7e0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-box {
+  width: 80%;
+  display: flex;
+}
+
+.nav-logo {
+  width: 150px;
+}
+.nav-container {
+  display: flex;
+  list-style-type: none;
+  width: 90%;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  font-weight: 500;
+}
+.nav-links::after {
+  display: inline-block;
+  content: ">";
+  padding-left: 8px;
+  font-weight: 800;
+  transition: transform 0.7s ease-in-out;
+}
+.nav-links:hover::after {
+  transform: translateX(5px);
+}
+.nav-links:focus::after {
+  transform: rotate(90deg);
+}
+.nav-links:hover,
+.nav-links:focus {
+  color: #00abbd;
+}
+.nav-contact {
+  width: 300px;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+.nav-contact >*{
+  text-decoration: none;
+  padding: 10px 30px;
+  color: var(--main-orange);
+  border-radius: 20px;
+  border: solid 2px var(--main-orange);
+  transition: 0.5s;
+  font-family: "Bold";
+}
+.nav-contact>*:hover {
+  color: white;
+  background-color: #ff9933;
+}
