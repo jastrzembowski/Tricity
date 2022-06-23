@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import Faq from "./Faq";
 
 import "./main.css";
 
@@ -247,57 +248,69 @@ export default function main() {
           </a>
         </div>
         <div className="custom-title">
-            <h1>The ones that matter...</h1>
-            <h2>Our customers</h2>
-          </div>
-        <div className="customers">
-          
+          <h1>The ones that matter...</h1>
+          <h2>Our customers</h2>
+        </div>
+        <hr />
+
+        <div className="customers scroll-reveal right">
           <div className="custom-card ">
             <img src={wetog} alt="wetog" className="custom-card__img"></img>
             <h2>Wetog</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis itaque dolorum possimus unde minima id!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Blanditiis itaque dolorum possimus unde minima id!
+            </p>
             <a href="#">Check them out!</a>
-
           </div>
           <div className="custom-card ">
             <img src={real} alt="real" className="custom-card__img"></img>
             <h2>Real Estate</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis itaque dolorum possimus unde minima id!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Blanditiis itaque dolorum possimus unde minima id!
+            </p>
             <a href="#">Check them out!</a>
           </div>
           <div className="custom-card">
             <img src={menta} alt="menta" className="custom-card__img"></img>
             <h2>Mentaletics</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis itaque dolorum possimus unde minima id!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Blanditiis itaque dolorum possimus unde minima id!
+            </p>
             <a href="#">Check them out!</a>
-
           </div>
           <div className="custom-card">
             <img src={qche} alt="qche" className="custom-card__img"></img>
             <h2>QCHE</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis itaque dolorum possimus unde minima id!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Blanditiis itaque dolorum possimus unde minima id!
+            </p>
             <a href="#">Check them out!</a>
-
           </div>
           <div className="custom-card ">
             <img src={helpngo} alt="helpngo" className="custom-card__img"></img>
             <h2>Help NGO</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis itaque dolorum possimus unde minima id!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Blanditiis itaque dolorum possimus unde minima id!
+            </p>
             <a href="#">Check them out!</a>
-
           </div>
           <div className="custom-card">
             <img src={power} alt="power" className="custom-card__img"></img>
             <h2>Power Of Now</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis itaque dolorum possimus unde minima id!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Blanditiis itaque dolorum possimus unde minima id!
+            </p>
             <a href="#">Check them out!</a>
-
           </div>
-          
         </div>
-      
+        <Faq />
       </div>
-      
     </div>
   );
 }
