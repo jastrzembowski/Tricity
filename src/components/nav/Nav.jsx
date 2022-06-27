@@ -23,7 +23,7 @@ export default function Nav() {
               setIsTechno(false);
             }}
           >
-            <a href="#" className="nav-links">
+             <a href="https://www.google.com/" className="nav-links">
               Our Work
             </a>
             <i class="fa-solid fa-angle-right"></i>
@@ -103,7 +103,7 @@ export default function Nav() {
               setIsWork(false);
             }}
           >
-            <a href="#" className="nav-links">
+               <a href="https://www.google.com/" className="nav-links">
               Services
             </a>
             <i class="fa-solid fa-angle-right"></i>
@@ -183,7 +183,7 @@ export default function Nav() {
               setIsWork(false);
             }}
           >
-            <a href="#" className="nav-links">
+        <a href="https://www.google.com/" className="nav-links">
               Technologies
             </a>
 

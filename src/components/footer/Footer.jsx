@@ -13,22 +13,22 @@ export default function Footer() {
         </div>
         <div className="footer-text">
           <h3>Footer Title</h3>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
-          <a href="#">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <a href="https://www.google.com/">Lorem, ipsum.</a>
         </div>
       </div>
 
@@ -41,10 +41,13 @@ export default function Footer() {
       </div>
       <div className="foot-inf">
         <div className="foot-inf-box">
-          <p> 2022 Tricity Solutions</p> <p>|</p><p> All rights reserved</p>
+          <p> 2022 Tricity Solutions</p> <p>|</p>
+          <p> All rights reserved</p>
         </div>
         <div className="foot-inf-box">
-          <a href="#"> Privacy Policy</a><p>|</p><a href="#">Terms of service</a>
+          <a href="https://www.google.com/">Privacy Policy</a>
+          <p>|</p>
+          <a href="https://www.google.com/">Terms of service</a>
         </div>
       </div>
     </footer>
