@@ -55,7 +55,7 @@ export default function main() {
             officia porro mollitia quas!
           </p>
           <div className="main-book-button">
-            <a>Book free consultation</a>
+          <a href="https://www.google.com/">Book free consultation</a>
           </div>
         </div>
         <div className="main-img">
@@ -71,7 +71,7 @@ export default function main() {
           </h1>
         </div>
         <div id="main-text__readmore">
-          <a href="#">Read more</a> <i class="fa-solid fa-angle-right"></i>
+        <a href="https://www.google.com/">Read more</a> <i class="fa-solid fa-angle-right"></i>
         </div>
       </div>
 
@@ -86,7 +86,7 @@ export default function main() {
                 eligendi consectetur commodi obcaecati reprehenderit ipsa
                 repellat nihil sapiente et doloremque!
               </p>
-              <a href="#">Read more</a>
+              <a href="https://www.google.com/">Read more</a>
             </div>
           </div>
           <div className="slider-element">
@@ -111,7 +111,7 @@ export default function main() {
                 eligendi consectetur commodi obcaecati reprehenderit ipsa
                 repellat nihil sapiente et doloremque!
               </p>
-              <a href="#">Read more</a>
+              <a href="https://www.google.com/">Read more</a>
             </div>{" "}
           </div>
 
@@ -124,7 +124,7 @@ export default function main() {
                 eligendi consectetur commodi obcaecati reprehenderit ipsa
                 repellat nihil sapiente et doloremque!
               </p>
-              <a href="#">Read more</a>
+              <a href="https://www.google.com/">Read more</a>
             </div>{" "}
           </div>
 
@@ -137,7 +137,7 @@ export default function main() {
                 eligendi consectetur commodi obcaecati reprehenderit ipsa
                 repellat nihil sapiente et doloremque!
               </p>
-              <a href="#">Read more</a>
+              <a href="https://www.google.com/">Read more</a>
             </div>{" "}
           </div>
         </Slider>
@@ -262,7 +262,7 @@ export default function main() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Blanditiis itaque dolorum possimus unde minima id!
             </p>
-            <a href="#">Check them out!</a>
+            <a href="https://www.google.com/">Check them out!</a>
           </div>
           <div className="custom-card ">
             <img src={real} alt="real" className="custom-card__img"></img>
@@ -271,7 +271,7 @@ export default function main() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Blanditiis itaque dolorum possimus unde minima id!
             </p>
-            <a href="#">Check them out!</a>
+            <a href="https://www.google.com/">Check them out!</a>
           </div>
           <div className="custom-card">
             <img src={menta} alt="menta" className="custom-card__img"></img>
@@ -280,7 +280,7 @@ export default function main() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Blanditiis itaque dolorum possimus unde minima id!
             </p>
-            <a href="#">Check them out!</a>
+            <a href="https://www.google.com/">Check them out!</a>
           </div>
           <div className="custom-card">
             <img src={qche} alt="qche" className="custom-card__img"></img>
@@ -289,7 +289,7 @@ export default function main() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Blanditiis itaque dolorum possimus unde minima id!
             </p>
-            <a href="#">Check them out!</a>
+            <a href="https://www.google.com/">Check them out!</a>
           </div>
           <div className="custom-card ">
             <img src={helpngo} alt="helpngo" className="custom-card__img"></img>
@@ -298,7 +298,7 @@ export default function main() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Blanditiis itaque dolorum possimus unde minima id!
             </p>
-            <a href="#">Check them out!</a>
+            <a href="https://www.google.com/">Check them out!</a>
           </div>
           <div className="custom-card">
             <img src={power} alt="power" className="custom-card__img"></img>
@@ -307,7 +307,7 @@ export default function main() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Blanditiis itaque dolorum possimus unde minima id!
             </p>
-            <a href="#">Check them out!</a>
+            <a href="https://www.google.com/">Check them out!</a>
           </div>
         </div>
         <Faq />
