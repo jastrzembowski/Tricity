@@ -31,7 +31,7 @@ h1{
 #main-text__readmore {
   display: flex;
   width: 48%;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: self-end;
   height: 30px;
   margin-top: 270px;
