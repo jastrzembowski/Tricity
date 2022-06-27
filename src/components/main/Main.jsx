@@ -98,7 +98,7 @@ export default function main() {
                 eligendi consectetur commodi obcaecati reprehenderit ipsa
                 repellat nihil sapiente et doloremque!
               </p>
-              <a href="#">Read more</a>
+              <a href="https://www.google.com/">Read more</a>
             </div>{" "}
           </div>
 

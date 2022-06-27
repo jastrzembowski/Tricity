@@ -34,7 +34,7 @@ export default function Nav() {
           >
             <div className="work-nav-title">
               <h1>Access the product development know-how you need</h1>
-              <a href="#">Learn more</a>
+              <a href="https://www.google.com/">Learn more</a>
             </div>
             <div className="work-nav-container">
               <div className="work-nav-box">
@@ -114,7 +114,7 @@ export default function Nav() {
           >
             <div className="work-nav-title">
               <h1>Access the product development know-how you need</h1>
-              <a href="#">Learn more</a>
+              <a href="https://www.google.com/">Learn more</a>
             </div>
             <div className="work-nav-container">
               <div className="work-nav-box">
@@ -195,7 +195,7 @@ export default function Nav() {
           >
            <div className="work-nav-title">
               <h1>Access the product development know-how you need</h1>
-              <a href="#">Learn more</a>
+              <a href="https://www.google.com/">Learn more</a>
             </div>
             <div className="work-nav-container">
               <div className="work-nav-box">
