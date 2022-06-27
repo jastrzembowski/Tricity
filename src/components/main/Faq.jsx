@@ -15,7 +15,15 @@ export default function Faq() {
       <div
         className={isActive ? "quest-container" : "quest-active"}
         onClick={
-          isActive ? (e) => setIsActive(false) : (e) => setIsActive(true)
+          isActive
+            ? (e) => {
+                setIsActive1(true);
+                setIsActive2(true);
+                setIsActive3(true);
+                setIsActive4(true);
+                setIsActive(false);
+              }
+            : (e) => setIsActive(true)
         }
       >
         <div className="quest-box">
@@ -44,7 +52,15 @@ export default function Faq() {
       <div
         className={isActive1 ? "quest-container" : "quest-active"}
         onClick={
-          isActive1 ? (e) => setIsActive1(false) : (e) => setIsActive1(true)
+          isActive1
+            ? (e) => {
+                setIsActive1(false);
+                setIsActive2(true);
+                setIsActive3(true);
+                setIsActive4(true);
+                setIsActive(true);
+              }
+            : (e) => setIsActive1(true)
         }
       >
         <div className="quest-box">
@@ -73,7 +89,15 @@ export default function Faq() {
       <div
         className={isActive2 ? "quest-container" : "quest-active"}
         onClick={
-          isActive2 ? (e) => setIsActive2(false) : (e) => setIsActive2(true)
+          isActive2
+            ? (e) => {
+                setIsActive2(false);
+                setIsActive1(true);
+                setIsActive3(true);
+                setIsActive4(true);
+                setIsActive(true);
+              }
+            : (e) => setIsActive2(true)
         }
       >
         <div className="quest-box">
@@ -102,7 +126,15 @@ export default function Faq() {
       <div
         className="quest-container"
         onClick={
-          isActive3 ? (e) => setIsActive3(false) : (e) => setIsActive3(true)
+          isActive3
+            ? (e) => {
+                setIsActive3(false);
+                setIsActive2(true);
+                setIsActive1(true);
+                setIsActive4(true);
+                setIsActive(true);
+              }
+            : (e) => setIsActive3(true)
         }
       >
         <div className="quest-box">
@@ -131,7 +163,15 @@ export default function Faq() {
       <div
         className={isActive4 ? "quest-container" : "quest-active"}
         onClick={
-          isActive4 ? (e) => setIsActive4(false) : (e) => setIsActive4(true)
+          isActive4
+            ? (e) => {
+                setIsActive1(true);
+                setIsActive2(true);
+                setIsActive3(true);
+                setIsActive4(false);
+                setIsActive(true);
+              }
+            : (e) => setIsActive4(true)
         }
       >
         <div className="quest-box">

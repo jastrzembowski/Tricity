@@ -72,15 +72,21 @@
 }
 .contact-img {
   width: 35%;
-  height: 90vh;
+  height: 600px;
   background-image: url("../../images/img5.jpg");
   background-size: cover;
-  opacity: 0.5;
   z-index: 10;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.7;
   border-radius: 30px;
-  box-shadow: 0 0 2em rgb(87, 87, 87);
-  transform: translateY(30px);
+  box-shadow: 0 10px 2em rgb(87, 87, 87);
+  transform: translateY(85px);
 
+}
+.link{
+  color: var(--main-teal);
+  cursor: pointer;
+}
+.link:hover{
+  color: var(--main-dark);
 }

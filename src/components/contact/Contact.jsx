@@ -42,7 +42,7 @@ export default function Contact() {
             ></input>
             <p>
               or contact us directly at{" "}
-              <span className="bold"> tricity@tricity.pl</span>
+              <span className="bold link"> tricity@tricity.pl</span>
             </p>
           </form>
           <span className="captcha-text">

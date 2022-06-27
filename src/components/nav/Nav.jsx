@@ -1,14 +1,13 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import logo1 from "../../images/logo1.png";
 import "./nav.css";
 
 export default function Nav() {
-
-  const [isWork, setIsWork] = useState(false)
-  const [isServices, setIsServices] = useState(false)
-  const [isTechno, setIsTechno] = useState(false)
+  const [isWork, setIsWork] = useState(false);
+  const [isServices, setIsServices] = useState(false);
+  const [isTechno, setIsTechno] = useState(false);
   return (
     <nav>
       <div className="nav-box">
@@ -16,37 +15,247 @@ export default function Nav() {
           <img src={logo1} alt="logo" className="nav-logo"></img>
         </Link>
         <ul className="nav-container">
-          <li id="nav-cont" onMouseEnter={(e) => {setIsWork(true);setIsServices(false);setIsTechno(false)}}>
+          <li
+            id="nav-cont"
+            onMouseEnter={(e) => {
+              setIsWork(true);
+              setIsServices(false);
+              setIsTechno(false);
+            }}
+          >
             <a href="#" className="nav-links">
               Our Work
             </a>
             <i class="fa-solid fa-angle-right"></i>
           </li>
-          <div className={isWork? "work-drop" : "work-hidden"} onMouseLeave={(e)=> setIsWork(false)}>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae quisquam quibusdam inventore explicabo mollitia, accusamus cupiditate placeat harum omnis.
-
+          <div
+            className={isWork ? "work-drop" : "work-hidden"}
+            onMouseLeave={(e) => setIsWork(false)}
+          >
+            <div className="work-nav-title">
+              <h1>Access the product development know-how you need</h1>
+              <a href="#">Learn more</a>
+            </div>
+            <div className="work-nav-container">
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>
+            </div>
           </div>
-          <li id="nav-cont" onMouseEnter={(e) => {setIsServices(true);setIsTechno(false);setIsWork(false)}}>
+          <li
+            id="nav-cont"
+            onMouseEnter={(e) => {
+              setIsServices(true);
+              setIsTechno(false);
+              setIsWork(false);
+            }}
+          >
             <a href="#" className="nav-links">
               Services
             </a>
             <i class="fa-solid fa-angle-right"></i>
           </li>
-          <div className={isServices? "work-drop" : "work-hidden"} onMouseLeave={(e)=> setIsServices(false)}>
-    SERVISEELorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae quisquam quibusdam inventore explicabo mollitia, accusamus cupiditate placeat harum omnis.
-
+          <div
+            className={isServices ? "work-drop" : "work-hidden"}
+            onMouseLeave={(e) => setIsServices(false)}
+          >
+            <div className="work-nav-title">
+              <h1>Access the product development know-how you need</h1>
+              <a href="#">Learn more</a>
+            </div>
+            <div className="work-nav-container">
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>
+            </div>
           </div>
-          <li id="nav-cont" onMouseEnter={(e) => {setIsServices(false);setIsTechno(true);setIsWork(false)}}>
+          <li
+            id="nav-cont"
+            onMouseEnter={(e) => {
+              setIsServices(false);
+              setIsTechno(true);
+              setIsWork(false);
+            }}
+          >
             <a href="#" className="nav-links">
               Technologies
             </a>
 
             <i class="fa-solid fa-angle-right"></i>
           </li>
-          <div className={isTechno? "work-drop" : "work-hidden"} onMouseLeave={(e)=> setIsTechno(false)}>
-          TECHNOOLorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae quisquam quibusdam inventore explicabo mollitia, accusamus cupiditate placeat harum omnis.
-
-</div>
+          <div
+            className={isTechno ? "work-drop" : "work-hidden"}
+            onMouseLeave={(e) => setIsTechno(false)}
+          >
+           <div className="work-nav-title">
+              <h1>Access the product development know-how you need</h1>
+              <a href="#">Learn more</a>
+            </div>
+            <div className="work-nav-container">
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>{" "}
+              <div className="work-nav-box">
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                  exercitationem officiis soluta esse. Molestias iusto possimus.
+                </p>
+              </div>
+            </div>
+          </div>
 
           {/* <li id="nav-cont">
             <a href="#" className="nav-links">

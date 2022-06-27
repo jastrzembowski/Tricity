@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import Faq from "./Faq";
+import Footer from "../footer/Footer";
 
 import "./main.css";
 
@@ -69,8 +70,8 @@ export default function main() {
             molestias ex.
           </h1>
         </div>
-        <div className="main-text__readmore">
-          <a href="#">Read more</a>
+        <div id="main-text__readmore">
+          <a href="#">Read more</a> <i class="fa-solid fa-angle-right"></i>
         </div>
       </div>
 
@@ -310,6 +311,7 @@ export default function main() {
           </div>
         </div>
         <Faq />
+        <Footer />
       </div>
     </div>
   );

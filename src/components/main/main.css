@@ -28,28 +28,32 @@ h1{
   width: 48%;
   padding: 5%;
 }
-.main-text__readmore {
+#main-text__readmore {
   display: flex;
   width: 48%;
   justify-content: end;
   align-items: self-end;
-  height: 300px;
+  height: 30px;
+  margin-top: 270px;
+  
 }
-.main-text__readmore a {
+#main-text__readmore a {
   text-decoration: none;
   color: var(--main-teal);
 }
-.main-text__readmore a:hover {
+#main-text__readmore a:hover {
   color: #026e81;
 }
-.main-text__readmore::after {
+#main-text__readmore i{
   content: ">";
   color: var(--main-teal);
-  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 2px;
   padding-left: 10px;
 }
-.main-text__readmore:hover::after {
+#main-text__readmore:hover .fa-solid{
   color: #026e81;
+  transform: translateX(5px);
 }
 .main-text h1 {
   font-size: 45px;
@@ -229,6 +233,7 @@ h1{
 .custom-title h2 {
   font-size: 50px;
   transform: translateY(-60px);
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .custom-card__img {
@@ -303,7 +308,7 @@ hr{
 }
 
 .quest-container{
-  opacity: 0.3;
+  opacity: 0.45;
   transition: 0.5s ease-in-out;
   cursor: pointer;
 
