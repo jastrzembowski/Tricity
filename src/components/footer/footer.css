@@ -82,3 +82,41 @@ footer {
 .foot-inf-box a:hover{
     color: rgba(0, 0, 0, 0.8);
 }
+
+@media only screen and (max-width: 600px) {
+    footer{
+        margin-top: 50px;
+        padding: 0px;
+    }
+    .footer-flexbox{
+        flex-direction: column-reverse;
+    }
+    .footer-text{
+        height: auto;
+        padding: 3px;
+    }
+    .footer-aside{
+        width: 100%;
+    }
+    .footer-aside img{
+        width: 30%;
+    }
+    .footer-bottom{
+        flex-direction: column;
+    }
+    .foot-box{
+        width: 100%;
+    }
+    .foot-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .foot-inf-box p,
+    .foot-inf-box a{
+        margin: 8px;
+        font-size: 10px;
+    }
+    .footer-text a{
+        width: auto;
+      }
+}

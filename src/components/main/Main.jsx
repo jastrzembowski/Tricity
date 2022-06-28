@@ -28,10 +28,19 @@ export default function main() {
     arrows: true,
     autoplaySpeed: 3000,
     infinite: true,
-  };
+    responsive: [
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      },
+]};
   const opSettings = {
     centerMode: true,
-    centerPadding: "60px",
+    centerPadding: "0px",
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
@@ -39,6 +48,17 @@ export default function main() {
     arrows: false,
     autoplaySpeed: 8000,
     infinite: true,
+    responsive: [
+
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true
+      }
+    },
+]
   };
 
   return (

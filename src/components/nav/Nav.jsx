@@ -14,7 +14,11 @@ export default function Nav() {
         <Link to="/">
           <img src={logo1} alt="logo" className="nav-logo"></img>
         </Link>
-        <ul className="nav-container">
+        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <label className="menu-icon" for="menu-btn">
+          <span className="nav-icon"></span>
+        </label>
+        <ul className="menu nav-container">
           <li
             id="nav-cont"
             onMouseEnter={(e) => {
@@ -23,7 +27,7 @@ export default function Nav() {
               setIsTechno(false);
             }}
           >
-             <a href="https://www.google.com/" className="nav-links">
+            <a href="https://www.google.pl/" className="nav-links">
               Our Work
             </a>
             <i class="fa-solid fa-angle-right"></i>
@@ -103,7 +107,7 @@ export default function Nav() {
               setIsWork(false);
             }}
           >
-               <a href="https://www.google.com/" className="nav-links">
+            <a href="https://www.google.com/" className="nav-links">
               Services
             </a>
             <i class="fa-solid fa-angle-right"></i>
@@ -183,7 +187,7 @@ export default function Nav() {
               setIsWork(false);
             }}
           >
-        <a href="https://www.google.com/" className="nav-links">
+            <a href="https://www.google.com/" className="nav-links">
               Technologies
             </a>
 
@@ -193,7 +197,7 @@ export default function Nav() {
             className={isTechno ? "work-drop" : "work-hidden"}
             onMouseLeave={(e) => setIsTechno(false)}
           >
-           <div className="work-nav-title">
+            <div className="work-nav-title">
               <h1>Access the product development know-how you need</h1>
               <a href="https://www.google.com/">Learn more</a>
             </div>
@@ -256,7 +260,12 @@ export default function Nav() {
               </div>
             </div>
           </div>
-
+          <li id="nav-cont" className="small">
+            <a href="/contact" className="nav-links">
+              Contact us
+            </a>
+            <i class="fa-solid fa-angle-right"></i>
+          </li>
           {/* <li id="nav-cont">
             <a href="#" className="nav-links">
               Industries
@@ -276,7 +285,7 @@ export default function Nav() {
             <i class="fa-solid fa-angle-right"></i>
           </li> */}
         </ul>
-        <div className="nav-contact">
+        <div className="nav-contact big">
           <Link to="/contact">Contact us</Link>
         </div>
       </div>

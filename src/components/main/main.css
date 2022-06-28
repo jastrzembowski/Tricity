@@ -337,3 +337,154 @@ align-items: center;
 .quest-box i {
   font-size: 26px;
 }
+
+
+@media only screen and (max-width: 1080px) {
+  .nav-contact{
+    width: 370px;
+  }
+  .main-box{
+    margin-top: 80px;
+  }
+.main-text h1{
+  font-size: 20px;
+}
+.main-text p{
+  font-size: 16px;
+}
+
+.main-img2{
+  transform: translateX(105px) translateY(-102px);
+}
+
+.footer-text{
+  height: 300px;
+}
+
+#main-text__readmore{
+  margin-top: 120px;
+}
+.trust{
+  margin: 100px 10px;
+}
+.trust-contact{
+  font-size: 15px;
+}
+.slider-card img{
+  height: 250px;
+}
+.slider-card h1{
+  font-size: 20px;
+}
+.mid-text{
+  margin: 60px 30px;
+}
+.opinions-slider{
+  width: 90%;
+}
+.faq-box{
+  width: 100%;
+}
+.main-box:nth-of-type(2){
+  margin-top: 0px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+
+  .main-box{
+    flex-direction: column;
+    text-align: justify;
+  }
+  .main-text{
+    width: 100%;
+    padding: 0px;
+  }
+  .main-text p{
+    padding-right: 0px;
+  }
+  .main-img{
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 25px;
+  }
+  .main-img1{
+width: 90%;  }
+  .main-img2{
+   display: none;
+  }
+  .main-book-button{
+    width: auto;
+    text-align: center;
+  }
+  #main-text__readmore{
+    margin-top: 0px;
+    width: 100%;
+  }
+  .slider-card{
+    width: auto;
+    padding: 30px 10px;
+    text-align: justify;
+  }
+
+  .slider-card img{
+    height: 180px;
+    object-fit: cover;
+  }
+  .slider-box{
+    width: 95%;
+  }
+  .mid-text{
+    margin: 40px 10px;
+  }
+  .mid-text h1{
+    font-size: 27px;
+  }
+  .mid-text p{
+    font-size: 16px;
+  }
+  .opinions-element{
+    text-align: justify;
+  }
+  .trust{
+    flex-direction: column;
+    padding: 30px 10px;
+    margin: 30px 10px;
+  }
+  .trust-box{
+    width: 90%;
+  }
+  .trust-box h2{
+    font-size: 28px;
+  }
+  .custom-title{
+    align-items: baseline;
+  }
+  .custom-title h1{
+    font-size: 35px;
+  }
+  .custom-title h2{
+    font-size: 25px;
+    transform: translateY(-20px);
+  }
+  .custom-card{
+    width: 100%;
+  }
+  .custom-card__img{
+    width: 140px;
+    height: 140px;
+  }
+  .faq-box h1{
+    font-size: 30px;
+  }
+  .quest-box h1{
+    font-size: 17px;
+  }
+  .quest-box i{
+    font-size: 15px;
+  }
+  .answer-box p{
+    font-size: 13px;
+  }
+
+}
