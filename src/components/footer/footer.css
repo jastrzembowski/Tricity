@@ -12,7 +12,7 @@ footer {
 }
 .footer-aside img {
   width: 80%;
-  height: fit-content;
+  height: auto;
 }
 .footer-aside {
   width: 10vw;
