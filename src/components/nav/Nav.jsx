@@ -131,7 +131,7 @@ export default function Nav() {
               
             }}
           >
-            <a href="#" className="nav-links">
+            <a href="/" className="nav-links">
               Technologies
             </a>
 
@@ -149,7 +149,7 @@ export default function Nav() {
                   setIsMobile(false);
                 }}
               >
-                <a className="nav-links">Desktop Development</a>
+                <a href="/" className="nav-links">Desktop Development</a>
                 <i class="fa-solid fa-angle-right"></i>
               </li>
               <div
@@ -217,7 +217,7 @@ export default function Nav() {
                   setIsQa(false);
                 }}
               >
-                <a className="nav-links">Mobile Development</a>
+                <a  href="/" className="nav-links">Mobile Development</a>
                 <i class="fa-solid fa-angle-right"></i>
               </li>
               <div
@@ -307,7 +307,7 @@ export default function Nav() {
                   setIsQa(false);
                 }}
               >
-                <a className="nav-links">Web Development</a>
+                <a href="/" className="nav-links">Web Development</a>
                 <i class="fa-solid fa-angle-right"></i>
               </li>
               <div
@@ -391,7 +391,7 @@ export default function Nav() {
                   setIsQa(false);
                 }}
               >
-                <a className="nav-links">Cloud and Devops</a>
+                <a href="/" className="nav-links">Cloud and Devops</a>
                 <i class="fa-solid fa-angle-right"></i>
               </li>
               <div
@@ -475,7 +475,7 @@ export default function Nav() {
                   setIsQa(true);
                 }}
               >
-                <a className="nav-links">QA Automation</a>
+                <a href="/" className="nav-links">QA Automation</a>
                 <i class="fa-solid fa-angle-right"></i>
               </li>
               <div
