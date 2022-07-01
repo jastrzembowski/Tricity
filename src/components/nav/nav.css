@@ -5,7 +5,9 @@
   --main-orange: #ff9933;
   --main-light: #a1c7e0;
 }
-
+a:-webkit-any-link {
+  text-decoration: none;
+}
 nav {
   position: fixed;
   display: flex;
@@ -265,6 +267,8 @@ nav {
   left: 0px;
   opacity: 0;
   z-index: -5;
+  height: 0px;
+  width: 0px;
   transition: 0.1s;
   color: white;
 }
@@ -279,16 +283,24 @@ nav {
   width: 80%;
   flex-wrap: wrap;
 }
-
+.work-nav-container a{
+  text-decoration: none;
+}
 .work-nav-box {
   width: 18vw;
   padding: 0 5px;
+  text-decoration: none;
+  color: black;
+
 }
 .work-nav-box p {
   font-family: "Regular";
+  text-decoration: none;
+
 }
 .work-nav-box > * {
   transition: 0.5s ease-in-out;
+
 }
 .work-nav-title a {
   color: #0099dd;

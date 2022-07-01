@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import Faq from "./Faq";
 import Footer from "../footer/Footer";
+import { Link } from "react-router-dom";
 
 import "./main.css";
 
@@ -75,7 +76,7 @@ export default function main() {
             officia porro mollitia quas!
           </p>
           <div className="main-book-button">
-          <a href="https://www.google.com/">Book free consultation</a>
+          <Link to ="/contact">Book free consultation</Link>
           </div>
         </div>
         <div className="main-img">
@@ -264,9 +265,9 @@ export default function main() {
               facere distinctio iure asperiores nihil.
             </p>
           </div>
-          <a href="/contact" className="trust-contact">
+          <Link to="/contact" className="trust-contact">
             Contact us now!
-          </a>
+          </Link>
         </div>
         <div className="custom-title">
           <h1>The ones that matter...</h1>
