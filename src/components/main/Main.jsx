@@ -35,10 +35,11 @@ export default function main() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: true
-        }
+          infinite: true,
+        },
       },
-]};
+    ],
+  };
   const opSettings = {
     centerMode: true,
     centerPadding: "0px",
@@ -50,290 +51,302 @@ export default function main() {
     autoplaySpeed: 8000,
     infinite: true,
     responsive: [
-
-    {
-      breakpoint: 700,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true
-      }
-    },
-]
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+    ],
   };
 
   return (
-    <div className="main-container">
-      <div className="main-box">
-        <div className="main-text">
-          <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur, alias?
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-            distinctio provident reiciendis ab architecto? Perspiciatis optio
-            officia porro mollitia quas!
-          </p>
-          <div className="main-book-button">
-          <Link to ="/contact">Book free consultation</Link>
-          </div>
-        </div>
-        <div className="main-img">
-          <img src={img2} alt="main-img" className="main-img1" />
-          <img src={img1} alt="main-img" className="main-img2" />
-        </div>
-      </div>
-      <div className="main-box">
-        <div className="main-text">
-          <h1>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse
-            molestias ex.
-          </h1>
-        </div>
-        <div id="main-text__readmore">
-        <a href="https://www.google.com/">Read more</a> <i class="fa-solid fa-angle-right"></i>
-        </div>
-      </div>
-
-      <div className="slider-box">
-        <Slider {...settings}>
-          <div className="slider-element">
-            <div className="slider-card">
-              <img src={sli1} alt="computer"></img>
-              <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
-                eligendi consectetur commodi obcaecati reprehenderit ipsa
-                repellat nihil sapiente et doloremque!
-              </p>
-              <a href="https://www.google.com/">Read more</a>
+    <>
+      <div className="main-container">
+        <div className="main-box">
+          <div className="main-text">
+            <h1>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur, alias?
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+              distinctio provident reiciendis ab architecto? Perspiciatis optio
+              officia porro mollitia quas!
+            </p>
+            <div className="main-book-button">
+              <Link to="/contact">Book free consultation</Link>
             </div>
           </div>
-          <div className="slider-element">
-            <div className="slider-card">
-              <img src={sli2} alt="computer"></img>
-              <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
-                eligendi consectetur commodi obcaecati reprehenderit ipsa
-                repellat nihil sapiente et doloremque!
-              </p>
-              <a href="https://www.google.com/">Read more</a>
-            </div>{" "}
+          <div className="main-img">
+            <img src={img2} alt="main-img" className="main-img1" />
+            <img src={img1} alt="main-img" className="main-img2" />
           </div>
-
-          <div className="slider-element">
-            <div className="slider-card">
-              <img src={sli3} alt="computer"></img>
-              <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
-                eligendi consectetur commodi obcaecati reprehenderit ipsa
-                repellat nihil sapiente et doloremque!
-              </p>
-              <a href="https://www.google.com/">Read more</a>
-            </div>{" "}
-          </div>
-
-          <div className="slider-element">
-            <div className="slider-card">
-              <img src={sli4} alt="computer"></img>
-              <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
-                eligendi consectetur commodi obcaecati reprehenderit ipsa
-                repellat nihil sapiente et doloremque!
-              </p>
-              <a href="https://www.google.com/">Read more</a>
-            </div>{" "}
-          </div>
-
-          <div className="slider-element">
-            <div className="slider-card">
-              <img src={sli5} alt="computer"></img>
-              <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
-                eligendi consectetur commodi obcaecati reprehenderit ipsa
-                repellat nihil sapiente et doloremque!
-              </p>
-              <a href="https://www.google.com/">Read more</a>
-            </div>{" "}
-          </div>
-        </Slider>
-        <div className="mid-text">
-          <h1>
-            Speed up Lorem ipsum dolor sit.
-            <br /> amet consectetur adipisicing elit.{" "}
-          </h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
-            obcaecati, maxime est soluta quam ex quod praesentium officiis
-            mollitia voluptate t. Nesciunt obcaecati, maxime est soluta quam ex
-            quod praesentium!
-          </p>
         </div>
-        <div className="opinions-slider">
-          <Slider {...opSettings}>
-            <div className="opinions-element">
-              <div className="opinions-card">
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
+        <div className="main-box">
+          <div className="main-text">
+            <h1>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+              esse molestias ex.
+            </h1>
+          </div>
+          <div id="main-text__readmore">
+            <a href="https://www.google.com/">Read more</a>{" "}
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div className="slider-box">
+          <Slider {...settings}>
+            <div className="slider-element">
+              <div className="slider-card">
+                <img src={sli1} alt="computer"></img>
+                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
                 <p>
-                  The project is a <span className="bold"> grand success</span>.
-                  The user feedback is absolutely overwhelming.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Earum eligendi consectetur commodi obcaecati reprehenderit
+                  ipsa repellat nihil sapiente et doloremque!
                 </p>
-                <p className="bold">Thomas Wilson</p>
-                <p className="op-subtext">Product Manager</p>
+                <a href="https://www.google.com/">Read more</a>
               </div>
             </div>
-            <div className="opinions-element">
-              <div className="opinions-card">
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
+            <div className="slider-element">
+              <div className="slider-card">
+                <img src={sli2} alt="computer"></img>
+                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
                 <p>
-                  The project is a <span className="bold"> grand success</span>.
-                  The user feedback is absolutely overwhelming.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Earum eligendi consectetur commodi obcaecati reprehenderit
+                  ipsa repellat nihil sapiente et doloremque!
                 </p>
-                <p className="bold">Thomas Wilson</p>
-                <p className="op-subtext">Product Manager</p>
-              </div>
-            </div>
-            <div className="opinions-element">
-              <div className="opinions-card">
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <p>
-                  The project is a <span className="bold"> grand success</span>.
-                  The user feedback is absolutely overwhelming.
-                </p>
-                <p className="bold">Thomas Wilson</p>
-                <p className="op-subtext">Product Manager</p>
-              </div>
-            </div>
-            <div className="opinions-element">
-              <div className="opinions-card">
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <p>
-                  The project is a <span className="bold"> grand success</span>.
-                  The user feedback is absolutely overwhelming.
-                </p>
-                <p className="bold">Thomas Wilson</p>
-                <p className="op-subtext">Product Manager</p>
-              </div>
+                <a href="https://www.google.com/">Read more</a>
+              </div>{" "}
             </div>
 
-            <div className="opinions-element">
-              <div className="opinions-card">
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
-                <i class="fa-solid fa-star star"></i>
+            <div className="slider-element">
+              <div className="slider-card">
+                <img src={sli3} alt="computer"></img>
+                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
                 <p>
-                  The project is a <span className="bold"> grand success</span>.
-                  The user feedback is absolutely overwhelming.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Earum eligendi consectetur commodi obcaecati reprehenderit
+                  ipsa repellat nihil sapiente et doloremque!
                 </p>
-                <p className="bold">Thomas Wilson</p>
-                <p className="op-subtext">Product Manager</p>
-              </div>
+                <a href="https://www.google.com/">Read more</a>
+              </div>{" "}
+            </div>
+
+            <div className="slider-element">
+              <div className="slider-card">
+                <img src={sli4} alt="computer"></img>
+                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Earum eligendi consectetur commodi obcaecati reprehenderit
+                  ipsa repellat nihil sapiente et doloremque!
+                </p>
+                <a href="https://www.google.com/">Read more</a>
+              </div>{" "}
+            </div>
+
+            <div className="slider-element">
+              <div className="slider-card">
+                <img src={sli5} alt="computer"></img>
+                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Earum eligendi consectetur commodi obcaecati reprehenderit
+                  ipsa repellat nihil sapiente et doloremque!
+                </p>
+                <a href="https://www.google.com/">Read more</a>
+              </div>{" "}
             </div>
           </Slider>
-        </div>
+          <div className="mid-text">
+            <h1>
+              Speed up Lorem ipsum dolor sit.
+              <br /> amet consectetur adipisicing elit.{" "}
+            </h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+              obcaecati, maxime est soluta quam ex quod praesentium officiis
+              mollitia voluptate t. Nesciunt obcaecati, maxime est soluta quam
+              ex quod praesentium!
+            </p>
+          </div>
+          <div className="opinions-slider">
+            <Slider {...opSettings}>
+              <div className="opinions-element">
+                <div className="opinions-card">
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <p>
+                    The project is a{" "}
+                    <span className="bold"> grand success</span>. The user
+                    feedback is absolutely overwhelming.
+                  </p>
+                  <p className="bold">Thomas Wilson</p>
+                  <p className="op-subtext">Product Manager</p>
+                </div>
+              </div>
+              <div className="opinions-element">
+                <div className="opinions-card">
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <p>
+                    The project is a{" "}
+                    <span className="bold"> grand success</span>. The user
+                    feedback is absolutely overwhelming.
+                  </p>
+                  <p className="bold">Thomas Wilson</p>
+                  <p className="op-subtext">Product Manager</p>
+                </div>
+              </div>
+              <div className="opinions-element">
+                <div className="opinions-card">
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <p>
+                    The project is a{" "}
+                    <span className="bold"> grand success</span>. The user
+                    feedback is absolutely overwhelming.
+                  </p>
+                  <p className="bold">Thomas Wilson</p>
+                  <p className="op-subtext">Product Manager</p>
+                </div>
+              </div>
+              <div className="opinions-element">
+                <div className="opinions-card">
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <p>
+                    The project is a{" "}
+                    <span className="bold"> grand success</span>. The user
+                    feedback is absolutely overwhelming.
+                  </p>
+                  <p className="bold">Thomas Wilson</p>
+                  <p className="op-subtext">Product Manager</p>
+                </div>
+              </div>
 
-        <div className="trust">
-          <div className="trust-box">
-            <h2>I will trust them...</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-              eius dolore, porro reprehenderit non repudiandae, sequi voluptatum
-              ad ipsam quam facere facilis. Cupiditate consequatur ratione
-              facere distinctio iure asperiores nihil.
-            </p>
+              <div className="opinions-element">
+                <div className="opinions-card">
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <p>
+                    The project is a{" "}
+                    <span className="bold"> grand success</span>. The user
+                    feedback is absolutely overwhelming.
+                  </p>
+                  <p className="bold">Thomas Wilson</p>
+                  <p className="op-subtext">Product Manager</p>
+                </div>
+              </div>
+            </Slider>
           </div>
-          <Link to="/contact" className="trust-contact">
-            Contact us now!
-          </Link>
-        </div>
-        <div className="custom-title">
-          <h1>The ones that matter...</h1>
-          <h2>Our customers</h2>
-        </div>
-        <hr />
 
-        <div className="customers scroll-reveal right">
-          <div className="custom-card ">
-            <img src={wetog} alt="wetog" className="custom-card__img"></img>
-            <h2>Wetog</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Blanditiis itaque dolorum possimus unde minima id!
-            </p>
-            <a href="https://www.google.com/">Check them out!</a>
+          <div className="trust">
+            <div className="trust-box">
+              <h2>I will trust them...</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, eius dolore, porro reprehenderit non repudiandae, sequi
+                voluptatum ad ipsam quam facere facilis. Cupiditate consequatur
+                ratione facere distinctio iure asperiores nihil.
+              </p>
+            </div>
+            <Link to="/contact" className="trust-contact">
+              Contact us now!
+            </Link>
           </div>
-          <div className="custom-card ">
-            <img src={real} alt="real" className="custom-card__img"></img>
-            <h2>Real Estate</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Blanditiis itaque dolorum possimus unde minima id!
-            </p>
-            <a href="https://www.google.com/">Check them out!</a>
+          <div className="custom-title">
+            <h1>The ones that matter...</h1>
+            <h2>Our customers</h2>
           </div>
-          <div className="custom-card">
-            <img src={menta} alt="menta" className="custom-card__img"></img>
-            <h2>Mentaletics</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Blanditiis itaque dolorum possimus unde minima id!
-            </p>
-            <a href="https://www.google.com/">Check them out!</a>
+          <hr />
+
+          <div className="customers scroll-reveal right">
+            <div className="custom-card ">
+              <img src={wetog} alt="wetog" className="custom-card__img"></img>
+              <h2>Wetog</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis itaque dolorum possimus unde minima id!
+              </p>
+              <a href="https://www.google.com/">Check them out!</a>
+            </div>
+            <div className="custom-card ">
+              <img src={real} alt="real" className="custom-card__img"></img>
+              <h2>Real Estate</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis itaque dolorum possimus unde minima id!
+              </p>
+              <a href="https://www.google.com/">Check them out!</a>
+            </div>
+            <div className="custom-card">
+              <img src={menta} alt="menta" className="custom-card__img"></img>
+              <h2>Mentaletics</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis itaque dolorum possimus unde minima id!
+              </p>
+              <a href="https://www.google.com/">Check them out!</a>
+            </div>
+            <div className="custom-card">
+              <img src={qche} alt="qche" className="custom-card__img"></img>
+              <h2>QCHE</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis itaque dolorum possimus unde minima id!
+              </p>
+              <a href="https://www.google.com/">Check them out!</a>
+            </div>
+            <div className="custom-card ">
+              <img
+                src={helpngo}
+                alt="helpngo"
+                className="custom-card__img"
+              ></img>
+              <h2>Help NGO</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis itaque dolorum possimus unde minima id!
+              </p>
+              <a href="https://www.google.com/">Check them out!</a>
+            </div>
+            <div className="custom-card">
+              <img src={power} alt="power" className="custom-card__img"></img>
+              <h2>Power Of Now</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis itaque dolorum possimus unde minima id!
+              </p>
+              <a href="https://www.google.com/">Check them out!</a>
+            </div>
           </div>
-          <div className="custom-card">
-            <img src={qche} alt="qche" className="custom-card__img"></img>
-            <h2>QCHE</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Blanditiis itaque dolorum possimus unde minima id!
-            </p>
-            <a href="https://www.google.com/">Check them out!</a>
-          </div>
-          <div className="custom-card ">
-            <img src={helpngo} alt="helpngo" className="custom-card__img"></img>
-            <h2>Help NGO</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Blanditiis itaque dolorum possimus unde minima id!
-            </p>
-            <a href="https://www.google.com/">Check them out!</a>
-          </div>
-          <div className="custom-card">
-            <img src={power} alt="power" className="custom-card__img"></img>
-            <h2>Power Of Now</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Blanditiis itaque dolorum possimus unde minima id!
-            </p>
-            <a href="https://www.google.com/">Check them out!</a>
-          </div>
+          <Faq />
         </div>
-        <Faq />
         <Footer />
+
       </div>
-    </div>
+    </>
   );
 }

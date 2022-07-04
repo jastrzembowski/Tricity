@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import logo2 from "../../images/logo2.png";
 import foot from "../../images/foot.png";
@@ -13,22 +14,43 @@ export default function Footer() {
         </div>
         <div className="footer-text">
           <h3>Footer Title</h3>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
-          <a href="https://www.google.com/">Lorem, ipsum.</a>
+          <Link to="/services" className="nav-links">
+            Services
+          </Link>
+          <Link to="/softwarearchitecture" className="nav-links">
+            Software Architecture
+          </Link>
+          <Link to="/softwaredevelopment" className="nav-links">
+            Software Development
+          </Link>
+          <Link to="/webdevelopment" className="nav-links">
+            Web Development
+          </Link>
+          <Link to="/mobiledevelopment" className="nav-links">
+            Mobile Development
+          </Link>
+          <Link to="/uidesign" className="nav-links">
+            UI Design
+          </Link>
+          <Link to="/cloudanddevops" className="nav-links">
+            Cloud and DevOps
+          </Link>
+          <Link to="/qa" className="nav-links">
+            Quality Assurance
+          </Link>
+          <Link to="/softwaresecurity" className="nav-links">
+            Software Security Audits
+          </Link>
+          <Link to="/datascience" className="nav-links">
+            Data Science
+          </Link>
+          <Link to="/ai" className="nav-links">
+            AI
+          </Link>
+          <Link to="/technologies" className="nav-links">
+          Technologies
+          </Link>   
+          <Link to="/contact" className="nav-links">Contact</Link>
         </div>
       </div>
 
