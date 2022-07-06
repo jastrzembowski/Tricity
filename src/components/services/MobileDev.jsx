@@ -112,14 +112,29 @@ function MobileDev() {
             <div className="techno-holder">
               <img src={png} alt="img"></img>
               <p>Angular</p>
+              <p className="techno-small-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                veniam quia pariatur, porro deserunt error quidem magni
+                consequatur tempore neque!
+              </p>
             </div>{" "}
             <div className="techno-holder">
               <img src={png2} alt="img"></img>
               <p>React</p>
+              <p className="techno-small-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                veniam quia pariatur, porro deserunt error quidem magni
+                consequatur tempore neque!
+              </p>
             </div>{" "}
             <div className="techno-holder">
               <img src={png3} alt="img"></img>
               <p>Vue</p>
+              <p className="techno-small-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                veniam quia pariatur, porro deserunt error quidem magni
+                consequatur tempore neque!
+              </p>
             </div>
           </div>
         </article>

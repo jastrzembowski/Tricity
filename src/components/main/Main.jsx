@@ -19,6 +19,7 @@ import power from "../../images/customer-img/power.png";
 import qche from "../../images/customer-img/qche.png";
 import real from "../../images/customer-img/real.png";
 import wetog from "../../images/customer-img/wetog.jpg";
+import arrow from "../../images/arrow.svg"
 
 export default function main() {
   const settings = {
@@ -68,13 +69,17 @@ export default function main() {
         <div className="main-box">
           <div className="main-text">
             <h1>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, alias?
+              Is it possible to create a skiled team of developers in a few
+              days?
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-              distinctio provident reiciendis ab architecto? Perspiciatis optio
-              officia porro mollitia quas!
+              Find out how we can help you become a market leader with the
+              latest technologies. We will guide you through the entire process
+              of your project - from idea and technology selection, to design
+              and final result. <br />
+              <br />
+              Do you have an idea for an "app" but don't know how to implement
+              it?
             </p>
             <div className="main-book-button">
               <Link to="/contact">Book free consultation</Link>
@@ -87,13 +92,14 @@ export default function main() {
         </div>
         <div className="main-box">
           <div className="main-text">
-            <h1>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
-              esse molestias ex.
-            </h1>
+            <span className="main-text-orn">S</span>
+            <h1>SUCCESS</h1>
+            <p>What does the success of an app depend on?</p>
+            <p>There are 3 basic, indisputable conditions on the technology side that determine whether an app will be successful or not. We will support you in implementing each of them to make you a leader in the market. </p>
           </div>
           <div id="main-text__readmore">
-            <a href="https://www.google.com/">Read more</a>{" "}
+            <img src={arrow} alt="arrow" className="readmore-arrow"></img>
+            <Link to="/blog/success">Read more</Link>
             <i class="fa-solid fa-angle-right"></i>
           </div>
         </div>
@@ -103,7 +109,7 @@ export default function main() {
             <div className="slider-element">
               <div className="slider-card">
                 <img src={sli1} alt="computer"></img>
-                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
+                <h1>TriCity at Dubai conference</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Earum eligendi consectetur commodi obcaecati reprehenderit
@@ -115,7 +121,7 @@ export default function main() {
             <div className="slider-element">
               <div className="slider-card">
                 <img src={sli2} alt="computer"></img>
-                <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
+                <h1>TriCity enters into parntership with Samsung</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Earum eligendi consectetur commodi obcaecati reprehenderit
@@ -166,15 +172,53 @@ export default function main() {
           </Slider>
           <div className="mid-text">
             <h1>
-              Speed up Lorem ipsum dolor sit.
-              <br /> amet consectetur adipisicing elit.{" "}
+              Mission, vision,
+              <br /> goals and motto
             </h1>
+            <h3>Mission:</h3>
+
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
-              obcaecati, maxime est soluta quam ex quod praesentium officiis
-              mollitia voluptate t. Nesciunt obcaecati, maxime est soluta quam
-              ex quod praesentium!
+              Not "why?" but "what for?" we created TriCity Solution.
+              <br />
+              Entrepreneurs are people who are ready to act, accept
+              responsibility and are open to risk. Only such people genuinely
+              change the world. We want to change this world together with them.
+              That is why our priority is partnership in business and attention
+              to the quality of the software we produce. We want to support
+              organizations at every stage of their technological development,
+              using our experience and competence. <br />
+              Our unquestionable values that guide our actions:
+              <br />
+              Partnership and integrity - we want to create business
+              relationships based on trust and loyalty. We are convinced that
+              the success of our partner is our success.
+              <br />
+              High quality service - we don't just think of producing valuable,
+              secure software, although this is our priority. It is also
+              professionalism in dealing with our partners.
+              <br />
+              Development of our employees and partners - development is the
+              highest human need. It is what makes functioning meaningful. We
+              want to support our partners in the process of technological
+              development of the organization, while making sure that they feel
+              confident and secure despite the changes. In order for this to
+              take place, at the same time we take great care of the development
+              and acquisition of competencies of our employees.
+              <br />
             </p>
+            <h3>Vision: </h3>
+            <p>
+              The direction of our activities is set by strictly defined values.
+              It is thanks to them that TriCity Solution, day by day, gains new,
+              satisfied customers, whose number is constantly growing. We strive
+              to provide services without regard to national borders. We are
+              counting on our diverse team, in terms of specialization and
+              knowledge of technology, to be fed by new specialists from all
+              over the world.
+            </p>
+
+            <h3>Motto:</h3>
+            <p> We believe that your success is our success.</p>
           </div>
           <div className="opinions-slider">
             <Slider {...opSettings}>
@@ -262,27 +306,12 @@ export default function main() {
             </Slider>
           </div>
 
-          <div className="trust">
-            <div className="trust-box">
-              <h2>I will trust them...</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores, eius dolore, porro reprehenderit non repudiandae, sequi
-                voluptatum ad ipsam quam facere facilis. Cupiditate consequatur
-                ratione facere distinctio iure asperiores nihil.
-              </p>
-            </div>
-            <Link to="/contact" className="trust-contact">
-              Contact us now!
-            </Link>
-          </div>
           <div className="custom-title">
             <h1>The ones that matter...</h1>
             <h2>Our customers</h2>
           </div>
-          <hr />
 
-          <div className="customers scroll-reveal right">
+          <div className="customers ">
             <div className="custom-card ">
               <img src={wetog} alt="wetog" className="custom-card__img"></img>
               <h2>Wetog</h2>
@@ -342,10 +371,24 @@ export default function main() {
               <a href="https://www.google.com/">Check them out!</a>
             </div>
           </div>
+          
+          <div className="trust">
+            <div className="trust-box">
+              <h2>I will trust them...</h2>
+              <p>
+                Find out how we can help you become a market leader with the
+                latest technologies. We will guide you through the entire
+                process of your project - from idea and technology selection, to
+                design and final result.
+              </p>
+            </div>
+            <Link to="/contact" className="trust-contact">
+              Contact us now!
+            </Link>
+          </div>
           <Faq />
         </div>
         <Footer />
-
       </div>
     </>
   );

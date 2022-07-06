@@ -1,5 +1,6 @@
 import Nav from "./components/nav/Nav";
 import Main from "./components/main/Main";
+import Success from "./components/main/Success";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
@@ -102,6 +103,7 @@ function App() {
         <Route path="/nodejs" element={<Nodejs/>} />
         <Route path="/react" element={<Reac/>} />
         <Route path="/vue" element={<Vue/>} />
+        <Route path="/blog/success" element={<Success/>} />
         <Route path="/wordpress" element={<Wordpress/>} />
       </Routes>
     </BrowserRouter>
