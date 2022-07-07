@@ -19,7 +19,7 @@ import power from "../../images/customer-img/power.png";
 import qche from "../../images/customer-img/qche.png";
 import real from "../../images/customer-img/real.png";
 import wetog from "../../images/customer-img/wetog.jpg";
-import arrow from "../../images/arrow.svg"
+import arrow from "../../images/arrow.svg";
 
 export default function main() {
   const settings = {
@@ -95,7 +95,12 @@ export default function main() {
             <span className="main-text-orn">S</span>
             <h1>SUCCESS</h1>
             <p>What does the success of an app depend on?</p>
-            <p>There are 3 basic, indisputable conditions on the technology side that determine whether an app will be successful or not. We will support you in implementing each of them to make you a leader in the market. </p>
+            <p>
+              There are 3 basic, indisputable conditions on the technology side
+              that determine whether an app will be successful or not. We will
+              support you in implementing each of them to make you a leader in
+              the market.{" "}
+            </p>
           </div>
           <div id="main-text__readmore">
             <img src={arrow} alt="arrow" className="readmore-arrow"></img>
@@ -171,54 +176,66 @@ export default function main() {
             </div>
           </Slider>
           <div className="mid-text">
+      
             <h1>
               Mission, vision,
               <br /> goals and motto
             </h1>
-            <h3>Mission:</h3>
+            <span className="mission-orn">MISSION</span>
+            <div className="mission-box">
 
-            <p>
-              Not "why?" but "what for?" we created TriCity Solution.
-              <br />
-              Entrepreneurs are people who are ready to act, accept
-              responsibility and are open to risk. Only such people genuinely
-              change the world. We want to change this world together with them.
-              That is why our priority is partnership in business and attention
-              to the quality of the software we produce. We want to support
-              organizations at every stage of their technological development,
-              using our experience and competence. <br />
-              Our unquestionable values that guide our actions:
-              <br />
-              Partnership and integrity - we want to create business
-              relationships based on trust and loyalty. We are convinced that
-              the success of our partner is our success.
-              <br />
-              High quality service - we don't just think of producing valuable,
-              secure software, although this is our priority. It is also
-              professionalism in dealing with our partners.
-              <br />
-              Development of our employees and partners - development is the
-              highest human need. It is what makes functioning meaningful. We
-              want to support our partners in the process of technological
-              development of the organization, while making sure that they feel
-              confident and secure despite the changes. In order for this to
-              take place, at the same time we take great care of the development
-              and acquisition of competencies of our employees.
-              <br />
-            </p>
-            <h3>Vision: </h3>
-            <p>
-              The direction of our activities is set by strictly defined values.
-              It is thanks to them that TriCity Solution, day by day, gains new,
-              satisfied customers, whose number is constantly growing. We strive
-              to provide services without regard to national borders. We are
-              counting on our diverse team, in terms of specialization and
-              knowledge of technology, to be fed by new specialists from all
-              over the world.
-            </p>
+              <h3>Mission</h3>
 
-            <h3>Motto:</h3>
-            <p> We believe that your success is our success.</p>
+              <p>
+                Not "why?" but "what for?" we created TriCity Solution.
+                <br />
+                Entrepreneurs are people who are ready to act, accept
+                responsibility and are open to risk. Only such people genuinely
+                change the world. We want to change this world together with
+                them. That is why our priority is partnership in business and
+                attention to the quality of the software we produce. We want to
+                support organizations at every stage of their technological
+                development, using our experience and competence. <br />
+                Our unquestionable values that guide our actions:
+                <br />
+                Partnership and integrity - we want to create business
+                relationships based on trust and loyalty. We are convinced that
+                the success of our partner is our success.
+                <br />
+                High quality service - we don't just think of producing
+                valuable, secure software, although this is our priority. It is
+                also professionalism in dealing with our partners.
+                <br />
+                Development of our employees and partners - development is the
+                highest human need. It is what makes functioning meaningful. We
+                want to support our partners in the process of technological
+                development of the organization, while making sure that they
+                feel confident and secure despite the changes. In order for this
+                to take place, at the same time we take great care of the
+                development and acquisition of competencies of our employees.
+                <br />
+              </p>
+            </div>
+            <div className="motto-holder">
+            <img src={img1} alt="motto img" className="motto-img"></img>
+            <div className="vision-box">
+              <span className="vision-orn">VISION</span>
+              <h3>Vision </h3>
+              <p>
+                The direction of our activities is set by strictly defined
+                values. It is thanks to them that TriCity Solution, day by day,
+                gains new, satisfied customers, whose number is constantly
+                growing. We strive to provide services without regard to
+                national borders. We are counting on our diverse team, in terms
+                of specialization and knowledge of technology, to be fed by new
+                specialists from all over the world.
+              </p>
+            </div>
+            <span className="motto-orn">MOTTO</span>
+            <div className="motto-box">
+              <h3>Motto</h3><p> We believe that your success is our success.</p>
+            </div>
+            </div>
           </div>
           <div className="opinions-slider">
             <Slider {...opSettings}>
@@ -371,7 +388,7 @@ export default function main() {
               <a href="https://www.google.com/">Check them out!</a>
             </div>
           </div>
-          
+
           <div className="trust">
             <div className="trust-box">
               <h2>I will trust them...</h2>

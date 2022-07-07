@@ -9,6 +9,10 @@ h1 {
   color: black;
   opacity: 0.75;
 }
+.bold {
+  font-weight: bold;
+  text-decoration: solid;
+}
 .main-container {
   width: 100%;
   display: flex;
@@ -159,21 +163,82 @@ h1 {
   color: #026e81;
 }
 .mid-text {
-  text-align: center;
-  margin: 170px;
-  transition: 1.2s ease-in-out;
-}
-.mid-text:hover {
-  color: #026e81;
-}
-.mid-text h1 {
-  font-family: "Bold";
-  font-size: 45px;
-}
-.mid-text p {
-  font-size: 22px;
+  text-align: justify;
+  margin-bottom: 150px;
 }
 
+.mid-text h1 {
+  font-family: "Bold";
+  font-size: 58px;
+  text-align: center;
+}
+.mid-text p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.mission-box h3,
+.vision-box h3,
+.motto-box h3 {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Bold";
+  margin-bottom: 0px;
+}
+.mission-box {
+  padding: 5px 30px 15px;
+  border-radius: 30px;
+  background-color: rgba(161, 199, 224, 0.1);
+  margin-bottom: 50px;
+}
+.mission-orn{
+  font-size: 140px;
+  transform: translateY(-70px) translateX(-70px);
+  position: absolute;
+  font-weight: 900;
+  font-family: "Bold";
+  color: rgba(161, 199, 224, 0.15);
+}
+.vision-orn{
+  font-size: 140px;
+  transform: translateY(-50px);
+  position: absolute;
+  font-weight: 900;
+  font-family: "Bold";
+  color: rgba(161, 199, 224, 0.15);
+}
+.motto-orn{
+  font-size: 140px;
+  position: absolute;
+  font-weight: 900;
+  font-family: "Bold";
+  transform: translateY(300px) translateX(-120px);
+  color: rgba(161, 199, 224, 0.15);
+}
+.motto-holder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.motto-img{
+  width: 65%;
+  object-fit: cover;
+  height: 300px;
+  border-radius: 30px;
+  margin: 25px 0px;
+}
+.motto-box{
+  width: 60%;
+  background-color: rgba(161, 199, 224, 0.1);
+  border-radius: 30px;
+  padding: 5px 30px 30px;
+}
+.vision-box{
+  width: 25%;
+  border-radius: 30px;
+  padding: 5px 25px;
+  background-color: rgba(161, 199, 224, 0.1);
+
+}
 .opinions-slider {
   margin: auto;
   height: auto;
@@ -362,6 +427,17 @@ hr {
 }
 .success-top-text {
   text-align: center;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+.success-top-text h1 {
+  color: white;
+  opacity: 1;
+  font-size: 100px;
+  line-height: 8px;
+}
+.success-top-text p {
+  font-size: 30px;
 }
 .success-top-box img {
   position: absolute;
@@ -369,7 +445,78 @@ hr {
   width: 100%;
   height: 600px;
   object-fit: cover;
-  filter: brightness(30%);
+  filter: brightness(35%);
+}
+.success-container {
+  width: 45%;
+  text-align: center;
+  padding-left: 25%;
+  line-height: 1.7;
+  height: auto;
+  margin-top: 150px;
+}
+.success-container .bold {
+  color: var(--main-blue);
+}
+.success-container h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+.success-bg-text {
+  position: absolute;
+  font-size: 150px;
+  right: 15%;
+  margin-top: 85px;
+  font-weight: 900;
+  font-family: "Bold";
+  filter: invert(68%) sepia(79%) saturate(28%) hue-rotate(-245deg)
+    brightness(125%) contrast(97%);
+}
+.success-button {
+  width: auto;
+}
+.success-container h3 {
+  color: var(--main-blue);
+}
+.success-title {
+  font-size: 23px;
+}
+.success-ad {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(123, 204, 246, 0.16);
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 80px;
+  margin-bottom: -50px;
+}
+
+.success-ad p {
+  color: var(--main-blue);
+  font-size: 18px;
+}
+.success-ad h3 {
+  margin: 0px auto 30px auto;
+  font-size: 50px;
+  width: 60%;
+  font-weight: 100;
+  text-align: center;
+}
+.succes-bg1 {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  opacity: 0.5;
+  margin-top: 600px;
+  height: 800px;
+}
+.programmer-success {
+  position: absolute;
+  height: 500px;
+  left: 70px;
+  margin-top: 500px;
 }
 @media only screen and (max-width: 1080px) {
   .nav-contact {
@@ -408,9 +555,7 @@ hr {
   .slider-card h1 {
     font-size: 20px;
   }
-  .mid-text {
-    margin: 60px 30px;
-  }
+
   .opinions-slider {
     width: 90%;
   }
@@ -466,15 +611,7 @@ hr {
   .slider-box {
     width: 95%;
   }
-  .mid-text {
-    margin: 40px 10px;
-  }
-  .mid-text h1 {
-    font-size: 27px;
-  }
-  .mid-text p {
-    font-size: 16px;
-  }
+
   .opinions-element {
     text-align: justify;
   }
