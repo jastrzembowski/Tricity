@@ -9,6 +9,9 @@ h1 {
   color: black;
   opacity: 0.75;
 }
+body{
+  overflow-x: hidden;
+}
 .bold {
   font-weight: bold;
   text-decoration: solid;
@@ -565,9 +568,12 @@ hr {
   .main-box:nth-of-type(2) {
     margin-top: 0px;
   }
+  .programmer-success{
+    left: 0px
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .main-box {
     flex-direction: column;
     text-align: justify;
@@ -611,9 +617,27 @@ hr {
   .slider-box {
     width: 95%;
   }
-
+.mid-text h1{
+  font-size: 35px;
+}
+.mid-text p{
+  font-size: 12px;
+}
+.motto-img{
+  display: none;
+}
+.vision-box{
+  width: 100%;
+}
+.motto-box{
+  width: 100%;
+  margin-top: 50px;
+}
   .opinions-element {
     text-align: justify;
+  }
+  .opinions-slider{
+    padding: 50px 7px;
   }
   .trust {
     flex-direction: column;
@@ -654,5 +678,46 @@ hr {
   }
   .answer-box p {
     font-size: 13px;
+  }
+  .success-top-text h1{
+    font-size: 40px;
+  }
+  .success-top-text h3{
+    font-size: 13px;
+  }
+  .success-container{
+    padding: 10px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .success-container h1{
+    font-size: 25px;
+  }
+  .success-bg-text{
+    z-index: -1;
+    transform: translateY(-100px) translateX(50px);
+  }
+  .success-container h2{
+    font-size: 17px;
+    padding: 0px 15px;
+  }
+  .success-container p{
+    font-size: 12px;
+    padding: 0px 10px;
+  }
+  .success-container .success-title {
+    font-size: 18px;
+  }
+  .programmer-success{
+    opacity: 0.2;
+    z-index: 0;
+  }
+  .success-container h3{
+    font-size: 15px;
+    padding: 0px 15px;
+  }
+  .success-ad h3{
+    width: 90%;
+    font-size: 35px;
   }
 }

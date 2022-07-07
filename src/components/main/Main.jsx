@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 
 import "./main.css";
 
-import img1 from "../../images/img1.jpg";
-import img2 from "../../images/img2.jpg";
+import img3 from "../../images/img3.jpg";
+import img9 from "../../images/img9.jpg";
+import img4 from "../../images/img4.jpg";
 import sli1 from "../../images/sli1.jpg";
 import sli2 from "../../images/sli2.jpg";
 import sli3 from "../../images/sli3.jpg";
@@ -86,8 +87,8 @@ export default function main() {
             </div>
           </div>
           <div className="main-img">
-            <img src={img2} alt="main-img" className="main-img1" />
-            <img src={img1} alt="main-img" className="main-img2" />
+            <img src={img4} alt="main-img" className="main-img1" />
+            <img src={img9} alt="main-img" className="main-img2" />
           </div>
         </div>
         <div className="main-box">
@@ -217,7 +218,7 @@ export default function main() {
               </p>
             </div>
             <div className="motto-holder">
-            <img src={img1} alt="motto img" className="motto-img"></img>
+            <img src={img3} alt="motto img" className="motto-img"></img>
             <div className="vision-box">
               <span className="vision-orn">VISION</span>
               <h3>Vision </h3>

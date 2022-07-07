@@ -16,7 +16,7 @@ function Success() {
           <h1>SUCCESS</h1>
           <h3>and everything you need to know.</h3>
         </div>
-      </div>{" "}
+      </div>
       <img src={bg1} alt="bg" className="succes-bg1"></img>
       <div className="container">
         <img
