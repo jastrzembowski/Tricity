@@ -179,8 +179,7 @@ export default function main() {
           <div className="mid-text">
       
             <h1>
-              Mission, vision,
-              <br /> goals and motto
+            Not "why?" but "what for?" <br/>we created TriCity Solution.
             </h1>
             <span className="mission-orn">MISSION</span>
             <div className="mission-box">
@@ -188,7 +187,7 @@ export default function main() {
               <h3>Mission</h3>
 
               <p>
-                Not "why?" but "what for?" we created TriCity Solution.
+                We don't care about the reasons - it's focusing ont the past. We are interested in solutions and their usability.
                 <br />
                 Entrepreneurs are people who are ready to act, accept
                 responsibility and are open to risk. Only such people genuinely

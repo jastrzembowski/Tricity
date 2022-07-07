@@ -40,6 +40,7 @@ body{
     brightness(125%) contrast(97%);
   font-size: 180px;
   font-weight: 900;
+  z-index: -1;
   transform: translateY(-80px) translateX(-50px);
   font-family: "Bold";
 }
@@ -719,5 +720,8 @@ hr {
   .success-ad h3{
     width: 90%;
     font-size: 35px;
+  }
+  .main-text-orn{
+    display: none;
   }
 }

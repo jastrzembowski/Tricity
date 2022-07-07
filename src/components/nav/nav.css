@@ -262,8 +262,7 @@ nav {
 }
 .work-hidden {
   position: absolute;
-  top: 70px;
-  left: -100px;
+  top: -100px;
   opacity: 0;
   z-index: -5;
   height: 0px;
