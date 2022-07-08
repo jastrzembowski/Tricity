@@ -17,13 +17,8 @@
 }
 
 .mobile {
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 24%,
-    rgba(0, 255, 196, 1) 62%,
-    rgba(0, 207, 251, 1) 98%
-  );
+    background: radial-gradient(circle, rgba(138,165,180,1) 0%, rgba(168,206,245,1) 66%, rgba(182,231,245,1) 100%);
+
   background-size: cover;
 }
 
@@ -110,7 +105,7 @@
 .cloud h1,
 .mobile h1,
 .data h1 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255);
 }
 .softaud h1 {
   font-family: "Bold";
@@ -130,6 +125,7 @@
   font-size: 20px;
   margin-top: 10px;
   color: white;
+  margin-bottom: 40px;
 }
 .web h3,
 .soft h3,
@@ -168,11 +164,8 @@
   color: white;
 }
 .mobile .serv-contact_button a:hover {
-  background-image: url("../../images/bg2.jpg");
-  color: white;
   background-size: cover;
-  font-weight: 900;
-  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 .ui .serv-contact_button {
   background-color: var(--main-dark);

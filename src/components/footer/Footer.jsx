@@ -67,7 +67,7 @@ export default function Footer() {
           <p> All rights reserved</p>
         </div>
         <div className="foot-inf-box">
-          <a href="https://www.google.com/">Privacy Policy</a>
+          <Link to="/Privacy">Privacy Policy</Link>
           <p>|</p>
           <a href="https://www.google.com/">Terms of service</a>
         </div>

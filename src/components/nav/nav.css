@@ -182,7 +182,6 @@ nav {
   display: flex;
   flex-direction: column;
   padding-left: 50px;
-
 }
 .mobile-left h1,
 .mobile-flex h1,
@@ -194,7 +193,7 @@ nav {
   padding-right: 10px;
 }
 .mobile-left h1,
-.mobile-flex h1{
+.mobile-flex h1 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -211,7 +210,7 @@ nav {
   flex-wrap: wrap;
 }
 .mobile-flex h1 {
-  margin-left: 5px
+  margin-left: 5px;
 }
 
 .web-left {
@@ -222,7 +221,6 @@ nav {
   padding-left: 40px;
   padding-right: 30px;
   justify-content: flex-end;
-
 }
 .web-right {
   width: auto;
@@ -260,14 +258,15 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .work-hidden {
-  position: absolute;
-  top: -100px;
+  display: none;
+  top: 0px;
   opacity: 0;
   z-index: -5;
-  height: 0px;
-  width: 0px;
-  transition: 0.1s;
+  height: auto;
+  width: 100vw;
+  transition: 0.2s;
   color: white;
 }
 .work-nav-title {
@@ -281,7 +280,7 @@ nav {
   width: 80%;
   flex-wrap: wrap;
 }
-.work-nav-container a{
+.work-nav-container a {
   text-decoration: none;
 }
 .work-nav-box {
@@ -289,16 +288,13 @@ nav {
   padding: 0 5px;
   text-decoration: none;
   color: black;
-
 }
 .work-nav-box p {
   font-family: "Regular";
   text-decoration: none;
-
 }
 .work-nav-box > * {
   transition: 0.5s ease-in-out;
-
 }
 .work-nav-title a {
   color: #0099dd;
@@ -468,7 +464,7 @@ nav {
     box-shadow: none;
   }
 
-  .small-drop{
+  .small-drop {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -487,7 +483,7 @@ nav {
     width: 100%;
   }
   .work-nav-box h3,
-  .small-drop #nav-cont{
+  .small-drop #nav-cont {
     font-size: 12px;
     margin: 0px;
     padding: 10px 20px;
@@ -498,10 +494,10 @@ nav {
     transform: translateX(10px);
     color: #00abbd;
   }
-  .nav-cont{
+  .nav-cont {
     width: 100%;
   }
-  .techno-drop ul{
+  .techno-drop ul {
     align-items: baseline;
     padding-left: 0px;
   }
@@ -514,11 +510,11 @@ nav {
   .desk-right,
   .web-right,
   .cloud-right,
-  .qa-right{
+  .qa-right {
     width: 100%;
     padding-left: 0px;
   }
-  
+
   .desk-left h3,
   .desk-left a,
   .desk-left h1,
@@ -530,8 +526,7 @@ nav {
   .cloud-left h1,
   .cloud-left p,
   .qa-left h1,
-  .qa-left p{
+  .qa-left p {
     display: none;
   }
-  
 }

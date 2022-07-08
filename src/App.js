@@ -49,6 +49,7 @@ import Nodejs from "./components/technologies/web/Nodejs";
 import Reac from "./components/technologies/web/Reac";
 import Vue from "./components/technologies/web/Vue";
 import Wordpress from "./components/technologies/web/Wordpress";
+import Privacy from "./components/footer/Privacy";
 
 
 function App() {
@@ -105,6 +106,8 @@ function App() {
         <Route path="/vue" element={<Vue/>} />
         <Route path="/blog/success" element={<Success/>} />
         <Route path="/wordpress" element={<Wordpress/>} />
+        <Route path="/privacy" element={<Privacy/>} />
+
       </Routes>
     </BrowserRouter>
   );
